@@ -1,0 +1,282 @@
+.body {
+    max-width: 375px;
+    width: 100%;
+    height: 100%;
+    background:white;
+    margin: 0 auto;
+}
+.container{
+    padding-top: 15px;
+    width: 100%;
+    height: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    min-width: 0;
+    /* height: 70px; */
+    /* border:1px solid; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex: 1 1 auto;
+}
+/*skroll*/
+.container::-webkit-scrollbar {
+    width:0px; 
+}
+/*HEADER*/
+.header{
+    display: flex;
+    width: 100%;
+    height:40px;
+    background-color:white;
+    /* margin: 20px 0px 0px 0px; */
+    /* border:1px solid ; */
+    
+}
+.back-img{
+    width: 10%;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.publications{
+    width: 90%;
+    font-size: 20px;
+    font-family: inherit;
+    margin: 0;
+    padding-top:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.main{
+    display: flex;
+    width: 100% ;
+}
+
+.name{
+    display: flex;
+    width: 100%;
+    height:40px;
+    /* border:1px solid; */
+}
+/* NAME*/
+.Im2{
+    width: 12%;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-right: 5px;
+    /* padding: 15px; */
+}
+#Im2{
+    width: 30px;
+    border:2px;
+    /* border-style: solid; */
+    border-color:#d1d1d1;
+    border-radius: 50%;
+}
+.name-log{
+    display: inline-block;
+    width: 85% ;
+    padding-top: 7px; 
+}
+.name-log-font{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+    line-height: 15px;
+}
+.three-dots{
+    width: 5%;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+/*PHOTO*/
+.photo{
+    width: 100%;
+    /* border:1px solid; */
+    margin-top: 7px;
+    
+}
+.wedding1{
+    width: 100%;
+}
+/*LIKE*/
+.like{
+    width: 100%;
+    height:30px;
+    /* border:1px solid; */
+    display: flex;
+    
+}
+.like_coment_send {
+    display: flex;
+padding-top: 5px;
+padding-left: 15px;
+justify-content: space-around;
+width: 25%;
+}
+.heart-red{
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.coment{
+    padding-left: 5px;
+   padding-right: 5px;
+}
+.send{
+    padding-left: 5px;
+   padding-right: 5px;
+}
+.dotes{
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 65%;
+    
+}
+.blue-dot{
+    padding-left: 45px;
+    
+}
+.grey-dot{
+    padding-left: 1px;
+    
+}
+.grey-dot2{
+    padding-left: 1px;
+}
+.save{
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 10%;
+}
+/*info-like*/
+.info-like{
+    display: flex;
+    width: 100%;
+    height:150px;
+    /* border:1px solid; */
+    flex-direction: column ;
+}
+.info-like-friends{
+    display: flex;
+    height: 30px;
+}
+.friends{
+   width: 20%;
+   padding-top: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 15px;
+}
+.like-people{
+    width: 80%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: start;
+    padding-right: 40px;
+    padding-top: 10px;
+    margin: 0%;
+}
+.like-name{
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    margin-top: 5px;
+    height: 0px;
+}
+ .coment-look{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#989696;
+    padding-top: 10px;
+    /* padding-bottom: 50px; */
+    padding-left: 10px;
+    margin: 0;
+}
+a {
+    text-decoration: none
+}
+.friend-coment1d{
+    display: flex;
+}
+ .friend-coment1{
+padding-left:10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top:5px;
+    
+} 
+ .heart-coment{
+    padding-top: 7px;
+    padding-left: 30px;
+}
+
+.friend-coment2d{
+    display: flex;
+}
+
+.heart-coment-two{
+   padding-top: 7px;
+   padding-right: 12px;
+}
+.friend-coment2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:10px;
+    padding-top:5px;
+    margin: 0;
+}
+
+/*Footer*/
+.footer{
+    display: flex;
+    /* justify-content:space-around; */
+    width: 100%;
+    height:40px;
+    background-color:white;
+    /* border:1px solid; */
+}
+
+.footer-nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content:space-around;
+    align-content:center;
+    padding: 5px;
+}
+.home{
+    
+    }
+.search{
+   
+    }
+.reels {
+       
+    }    
+
+.heart1 {
+    
+    } 
+    .Im3{
+        
+    }
+    #Im3{
+        width: 25px;
+        border:3px;
+        border-style: solid;
+        border-color:black;
+        border-radius: 50%;
+    }     
+    .footer-line{
+        margin-bottom: 0px;
+    }
